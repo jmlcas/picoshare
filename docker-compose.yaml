@@ -1,9 +1,7 @@
-version: '3.3'
-
 services:
 
   picoshare:
-    image: mtlynch/picoshare 
+    image: mtlynch/picoshare:latest 
     container_name: picoshare       
     environment:
       - PORT=3001
@@ -12,6 +10,5 @@ services:
       - "8200:3001"
     command: -db /data/store.db
     volumes:
-      - ./picos_data:/data
+      - ./picos_data:/data  
 
-      
