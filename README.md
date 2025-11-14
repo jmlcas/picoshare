@@ -1,8 +1,5 @@
-# picoshare
-Picoshare - Compartir archivos - Docker compose
+# Picoshare
 
-Ver en "localhost:8200"
+Ver en "http://localhost:8200"
 
 Password: p4ssw0rd
-
-
